@@ -1,0 +1,14 @@
+.lista{
+    margin-top: 1em;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+        li{
+        padding: 0.5rem;
+        }
+            audio{
+            margin: 15px;
+            border: 0.2em solid;
+            }
+    }

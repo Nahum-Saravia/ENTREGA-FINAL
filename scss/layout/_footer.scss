@@ -1,0 +1,16 @@
+footer{
+    text-align: center;
+    background-color: $background-principal;
+    figure{
+        margin-bottom: 0;
+        img{
+            width: 12rem;
+            margin-top: 1rem;
+        }
+    }
+}
+
+.fgaleria{
+    @extend footer; 
+    margin-top: 1.5rem;
+}

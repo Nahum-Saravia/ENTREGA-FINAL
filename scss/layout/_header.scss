@@ -1,0 +1,26 @@
+header{
+    background-color: $background-principal;
+    h1{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin: 0;
+    }
+        nav{
+                ul{
+                    display: flex;
+                    padding: 1em;
+                    background-color: $background-secundario;
+                    list-style: none;
+                    a{
+                            text-decoration: none;
+                            color: $fuentes-principal;
+                            padding: 1em;
+                            
+                        &:hover,:focus{
+                        background-color: orange;
+                            }        
+                        }       
+                    
+                }
+        }
+}

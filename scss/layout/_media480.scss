@@ -1,0 +1,60 @@
+/* css para 480px */
+/* galeria */
+@media (max-width:480px){
+    .sec-galeria{
+        .galeria{
+            .figure-1{
+                img{
+                    width: 12rem;
+                    height: 100%;
+                }
+            }
+            .figure-2{
+                img{
+                    width: 12rem;
+                    height: 100%;
+                }
+            }
+            .figure-3{
+                img{
+                    width: 12rem;
+                    height: 100%;
+                }
+            }
+            .figure-4{
+                img{
+                    width: 12rem;
+                    height: 100%;
+                }
+            }
+            .figure-5{
+                img{
+                    width: 12rem;
+                    height: 100%;
+                }
+            }
+            .figure-6{
+                img{
+                    width: 12rem;
+                    height: 100%;
+        }
+            }
+        }
+    }
+}
+
+/* css 320px */
+/* formulario */
+@media (max-width:480px){
+        
+    .sec-formulario{
+        form{
+            padding: 1rem;
+            fieldset{
+                input{
+                    width: 16rem;
+                    }
+                }
+            }
+        }
+    }

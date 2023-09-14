@@ -1,0 +1,12 @@
+.sec-video{
+    @extend .lista;
+    video{
+        width: 70%;
+        margin-top: 1rem;
+    }
+    iframe{
+        width: 70%;
+        height: 30rem;
+        margin: 3rem 0px;
+        }
+}

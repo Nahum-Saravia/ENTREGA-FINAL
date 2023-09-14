@@ -1,0 +1,18 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+@import "./base/reset";
+
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer";
+@import "./layout/sec-galeria";
+@import "./layout/sec-canciones";
+@import "./layout/sec-videos";
+@import "./layout/sec-formulario";
+
+
+@import"./layout/media1024";
+@import"./layout/media768";
+@import"./layout/media480";
+@import"./layout/media320";
