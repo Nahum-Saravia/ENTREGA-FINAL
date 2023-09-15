@@ -52,6 +52,14 @@ footer figure img, .fgaleria figure img {
   margin-top: 1.5rem;
 }
 
+.fformulario {
+  margin-top: 7rem;
+}
+
+.fcanciones {
+  margin-top: 22rem;
+}
+
 .sec-galeria .galeria {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -404,6 +412,13 @@ footer figure img, .fgaleria figure img {
     height: 100%;
   }
 }
+/* css para 1024px */
+/* clip*/
+@media (max-width: 1024px) {
+  .fvid {
+    margin-top: 2.5rem;
+  }
+}
 /* css para 768px */
 /* galeria */
 @media (max-width: 768px) {
@@ -432,6 +447,34 @@ footer figure img, .fgaleria figure img {
     height: 100%;
   }
 }
+/* css para 768px */
+/* clip */
+@media (max-width: 768px) {
+  .fvid {
+    margin-top: 3rem;
+  }
+}
+/* css para 768px */
+/* galeria */
+@media (max-width: 768px) {
+  .fgaleria {
+    margin-top: 2.8rem;
+  }
+}
+/* css para 480px */
+/* index*/
+@media (max-width: 480px) {
+  footer figure, .fgaleria figure {
+    margin-top: 1.8rem;
+  }
+}
+/* css para 480px */
+/* canciones*/
+@media (max-width: 480px) {
+  .fcanciones {
+    margin-top: 22.5rem;
+  }
+}
 /* css para 480px */
 /* galeria */
 @media (max-width: 480px) {
@@ -458,6 +501,13 @@ footer figure img, .fgaleria figure img {
   .sec-galeria .galeria .figure-6 img {
     width: 12rem;
     height: 100%;
+  }
+}
+/* css 480px */
+/* formulario */
+@media (max-width: 480px) {
+  .fformulario {
+    margin-top: 10.8rem;
   }
 }
 /* css 320px */
@@ -543,6 +593,13 @@ footer figure img, .fgaleria figure img {
 @media (max-width: 320px) {
   .lista li audio, .sec-video li audio {
     width: 15rem;
+  }
+}
+/*css para 768px */
+/* clip */
+@media (max-width: 320px) {
+  .fvid {
+    margin-top: 3.2rem;
   }
 }
 

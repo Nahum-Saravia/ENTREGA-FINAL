@@ -1,4 +1,25 @@
 /* css para 480px */
+/* index*/
+@media (max-width:480px){
+    footer{
+        figure{
+            margin-top: 1.8rem;
+        }
+    }
+}
+
+/* css para 480px */
+/* canciones*/
+@media (max-width:480px){
+    .fcanciones{
+        margin-top: 22.5rem;
+    }
+}
+
+
+
+
+/* css para 480px */
 /* galeria */
 @media (max-width:480px){
     .sec-galeria{
@@ -40,6 +61,14 @@
         }
             }
         }
+    }
+}
+
+/* css 480px */
+/* formulario */
+@media (max-width:480px){
+    .fformulario{
+        margin-top: 10.8rem;
     }
 }
 
